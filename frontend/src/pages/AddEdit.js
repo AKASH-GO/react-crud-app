@@ -50,6 +50,7 @@ const AddEdit = () => {
             placeholder='Enter Contact No.  ...' 
             onChange={handleInputChange} 
             value={contact}/>
+            <input type='submit' value="Add" />
       </form>    
     </div>
   )
